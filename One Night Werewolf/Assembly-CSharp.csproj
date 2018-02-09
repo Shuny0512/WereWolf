@@ -51,7 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Gamesetting\scripts\Playersettingcontroller.cs" />
+     <Compile Include="Assets\Gamesetting\scripts\PlayerNumController.cs" />
      <Compile Include="Assets\Gamesetting\scripts\Titlebutton.cs" />
      <Compile Include="Assets\Title\Sctipts\Startbuttoncontroller.cs" />
  <Reference Include="UnityEngine.UIAutomation">
