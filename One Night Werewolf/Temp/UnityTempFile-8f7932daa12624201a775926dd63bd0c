@@ -167,7 +167,7 @@
 -define:ENABLE_IOS_ON_DEMAND_RESOURCES
 -define:ENABLE_IOS_APP_SLICING
 -define:UNITY_HAS_GOOGLEVR
-'Assets/Gamesetting/scripts/Playersettingcontroller.cs'
+'Assets/Gamesetting/scripts/PlayerNumController.cs'
 'Assets/Gamesetting/scripts/Titlebutton.cs'
 'Assets/Title/Sctipts/Startbuttoncontroller.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'

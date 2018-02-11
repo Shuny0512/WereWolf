@@ -5,19 +5,17 @@ using UnityEngine.UI;
 
 public class PlayerNumController : MonoBehaviour {
 
-	GameObject player;
-	public int players;
+	public int numPlayer;
+	public Text textNumPlayer;
 	public Button plus;
 	public Button minus;
 
 	void Start () {
-		this.player = GameObject.Find ("howmanyplayers");
-		players = 4;
-		this.player.GetComponent<Text> ().text =
-			this.players.ToString ("F0");
-
+		numPlayer = 4;
+		textNumPlayer.text = this.numPlayer.ToString ("F0");
 		plus.onClick.AddListener (Add);
 		minus.onClick.AddListener (Substruct);
+		
 	}
 
 
@@ -26,11 +24,21 @@ public class PlayerNumController : MonoBehaviour {
 	}
 
 	void Add () {
-		players++;
+
+		if (numPlayer != 8) {
+			this.numPlayer += 1;
+			textNumPlayer.text = this.numPlayer.ToString ("F0");
+		}
+
 	}
 
 	void Substruct () {
-		players--;
+
+		if (numPlayer != 3) {
+			this.numPlayer -= 1;
+			textNumPlayer.text = this.numPlayer.ToString ("F0");
+		}
+	
 	}
 		
 
