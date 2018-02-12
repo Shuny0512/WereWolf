@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gamesetting/scripts/PlayerNumController.cs">
     <Files>
+      <File FileName="Assets/Gamesetting/scripts/PlayerNumController.cs" Line="40" Column="4" />
       <File FileName="Assets/Gamesetting/scripts/Titlebutton.cs" Line="9" Column="2" />
-      <File FileName="Assets/Gamesetting/scripts/PlayerNumController.cs" Line="33" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
