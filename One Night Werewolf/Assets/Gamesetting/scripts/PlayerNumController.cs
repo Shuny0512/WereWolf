@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerNumController : MonoBehaviour {
+public class PlayerNumController : MonoBehaviour 
+{
 
 	public int numPlayer;
 	public Text textNumPlayer;
 	public Button plus;
 	public Button minus;
 
-	void Start () {
+	void Start () 
+	{
 		numPlayer = 4;
 		textNumPlayer.text = this.numPlayer.ToString ("F0");
 		plus.onClick.AddListener (Add);
@@ -19,22 +21,27 @@ public class PlayerNumController : MonoBehaviour {
 	}
 
 
-	void Update () {
+	void Update () 
+	{
 		
 	}
 
-	void Add () {
+	void Add () 
+	{
 
-		if (numPlayer != 8) {
+		if (numPlayer != 8) 
+		{
 			this.numPlayer += 1;
 			textNumPlayer.text = this.numPlayer.ToString ("F0");
 		}
 
 	}
 
-	void Substruct () {
+	void Substruct () 
+	{
 
-		if (numPlayer != 3) {
+		if (numPlayer != 3) 
+		{
 			this.numPlayer -= 1;
 			textNumPlayer.text = this.numPlayer.ToString ("F0");
 		}

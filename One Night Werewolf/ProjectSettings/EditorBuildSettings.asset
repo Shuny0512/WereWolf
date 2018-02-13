@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Gamesetting/Gamesetting.unity
     guid: 4924ebc3bfd8e423db425e886e0ae635
+  - enabled: 1
+    path: Assets/NightAction/NightAction.unity
+    guid: 100010870de28435f909d76ad44ba831
