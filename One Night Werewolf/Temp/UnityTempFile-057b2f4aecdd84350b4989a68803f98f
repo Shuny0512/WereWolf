@@ -168,7 +168,7 @@
 -define:ENABLE_IOS_APP_SLICING
 -define:UNITY_HAS_GOOGLEVR
 'Assets/Gamesetting/scripts/PlayerNumController.cs'
-'Assets/Gamesetting/scripts/Titlebutton.cs'
+'Assets/Gamesetting/scripts/SceneController.cs'
 'Assets/NightAction/Scripts/NightActionTitleButtonController.cs'
 'Assets/NightAction/Scripts/SwitchController.cs'
 'Assets/Title/Sctipts/Startbuttoncontroller.cs'
