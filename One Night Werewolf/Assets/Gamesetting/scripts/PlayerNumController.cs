@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerNumController : MonoBehaviour 
 {
 
-	public int numPlayer;
+	public static int  numPlayer;
 	public Text textNumPlayer;
 	public Button plus;
 	public Button minus;
@@ -14,7 +14,7 @@ public class PlayerNumController : MonoBehaviour
 	void Start () 
 	{
 		numPlayer = 4;
-		textNumPlayer.text = this.numPlayer.ToString ("F0");
+		textNumPlayer.text = PlayerNumController.numPlayer.ToString ("F0");
 		plus.onClick.AddListener (Add);
 		minus.onClick.AddListener (Substruct);
 		
@@ -31,8 +31,9 @@ public class PlayerNumController : MonoBehaviour
 
 		if (numPlayer != 8) 
 		{
-			this.numPlayer += 1;
-			textNumPlayer.text = this.numPlayer.ToString ("F0");
+			PlayerNumController.numPlayer += 1;
+			textNumPlayer.text = PlayerNumController.numPlayer.ToString ("F0");
+			Debug.Log (PlayerNumController.numPlayer);
 		}
 
 	}
@@ -42,8 +43,9 @@ public class PlayerNumController : MonoBehaviour
 
 		if (numPlayer != 3) 
 		{
-			this.numPlayer -= 1;
-			textNumPlayer.text = this.numPlayer.ToString ("F0");
+			PlayerNumController.numPlayer -= 1;
+			textNumPlayer.text = PlayerNumController.numPlayer.ToString ("F0");
+			Debug.Log (PlayerNumController.numPlayer);
 		}
 	
 	}

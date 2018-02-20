@@ -29,5 +29,6 @@ public class SceneController : MonoBehaviour
 	void LoadNightAction()
 	{
 		SceneManager.LoadScene ("NightAction");
+		Debug.Log (PlayerNumController.numPlayer);
 	}
 }

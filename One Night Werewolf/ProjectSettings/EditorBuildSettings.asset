@@ -14,3 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/NightAction/NightAction.unity
     guid: 100010870de28435f909d76ad44ba831
+  - enabled: 1
+    path: Assets/DiscussionTime/DiscussionTime.unity
+    guid: c1ccd8cd575ff4721af09a3de32628a5

@@ -12,12 +12,11 @@ public class SwitchController : MonoBehaviour
 	public Button OpenButton;
 	public Button CompleteButton;
 	public int counter = 0;
-	//public int counterMax = 5;
+	public int counterMax = PlayerNumController.numPlayer;
 
 
 	void Start () 
 	{
-		
 		OpenUI.SetActive (true);
 		ResultUI.SetActive (false);
 		OpenButton.onClick.AddListener (Switch);
@@ -40,17 +39,21 @@ public class SwitchController : MonoBehaviour
 	{
 		counter++;
 
-		if (counter < 3) 
+		if (counter < counterMax) 
 		{
 			OpenUI.SetActive (true);
 			ResultUI.SetActive (false);
 			Debug.Log (this.counter);
+			Debug.Log (this.counterMax);
+
 
 		} else 
 			
 		{
 			Debug.Log ("finish");
+			Debug.Log (this.counterMax);
 			SceneManager.LoadScene ("DiscussionTime");
+
 
 		}
 			
