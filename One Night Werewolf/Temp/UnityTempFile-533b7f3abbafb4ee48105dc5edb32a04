@@ -167,6 +167,7 @@
 -define:ENABLE_IOS_ON_DEMAND_RESOURCES
 -define:ENABLE_IOS_APP_SLICING
 -define:UNITY_HAS_GOOGLEVR
+'Assets/DiscussionTime/Scripts/StartDiscussionButtonController.cs'
 'Assets/Gamesetting/scripts/PlayerNumController.cs'
 'Assets/Gamesetting/scripts/SceneController.cs'
 'Assets/NightAction/Scripts/NightActionTitleButtonController.cs'
