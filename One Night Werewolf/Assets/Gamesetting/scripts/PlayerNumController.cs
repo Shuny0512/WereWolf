@@ -29,7 +29,7 @@ public class PlayerNumController : MonoBehaviour
 	void Add () 
 	{
 
-		if (numPlayer != 8) 
+		if (numPlayer != 6) 
 		{
 			PlayerNumController.numPlayer += 1;
 			textNumPlayer.text = PlayerNumController.numPlayer.ToString ("F0");
@@ -41,7 +41,7 @@ public class PlayerNumController : MonoBehaviour
 	void Substruct () 
 	{
 
-		if (numPlayer != 3) 
+		if (numPlayer != 4) 
 		{
 			PlayerNumController.numPlayer -= 1;
 			textNumPlayer.text = PlayerNumController.numPlayer.ToString ("F0");

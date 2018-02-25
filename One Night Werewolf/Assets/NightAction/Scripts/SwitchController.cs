@@ -52,7 +52,7 @@ public class SwitchController : MonoBehaviour
 		{
 			Debug.Log ("finish");
 			Debug.Log (this.counterMax);
-			SceneManager.LoadScene ("DiscussionTime");
+			SceneManager.LoadScene ("StartDiscussion");
 
 
 		}
