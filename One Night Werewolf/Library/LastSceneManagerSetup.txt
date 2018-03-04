@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DiscussionTime/Discussing.unity
+- path: Assets/NightAction/NightAction.unity
   isLoaded: 1
   isActive: 1

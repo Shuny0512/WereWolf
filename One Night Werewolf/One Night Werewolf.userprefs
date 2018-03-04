@@ -1,12 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DiscussionTime/Scripts/StartDiscussionButtonController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gamesetting/scripts/PlayerNumController.cs">
     <Files>
-      <File FileName="Assets/DiscussionTime/Scripts/StartDiscussionButtonController.cs" Line="23" Column="39" />
-      <File FileName="Assets/NightAction/Scripts/SwitchController.cs" Line="1" Column="1" />
       <File FileName="Assets/NightAction/Scripts/NightActionTitleButtonController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Gamesetting/scripts/PlayerNumController.cs" Line="1" Column="1" />
+      <File FileName="Assets/DiscussionTime/Scripts/StartDiscussionButtonController.cs" Line="23" Column="39" />
+      <File FileName="Assets/NightAction/Scripts/SwitchController.cs" Line="55" Column="44" />
+      <File FileName="Assets/Gamesetting/scripts/PlayerNumController.cs" Line="32" Column="21" />
       <File FileName="Assets/Gamesetting/scripts/SceneController.cs" Line="1" Column="1" />
+      <File FileName="Assets/DiscussionTime/Scripts/LectsecondController.cs" Line="31" Column="4" />
+      <File FileName="Assets/DiscussionTime/Scripts/VillagerNumController.cs" Line="9" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

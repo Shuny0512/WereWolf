@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LectsecondController : MonoBehaviour 
+public class LeftsecondController : MonoBehaviour 
 {
 
 	public float leftsecond;

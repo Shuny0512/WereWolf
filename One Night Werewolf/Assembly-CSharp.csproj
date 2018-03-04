@@ -51,7 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DiscussionTime\Scripts\LectsecondController.cs" />
+     <Compile Include="Assets\DiscussionTime\Scripts\DiscussingButtonController.cs" />
+     <Compile Include="Assets\DiscussionTime\Scripts\LeftsecondController.cs" />
      <Compile Include="Assets\DiscussionTime\Scripts\StartDiscussionButtonController.cs" />
      <Compile Include="Assets\DiscussionTime\Scripts\VillagerNumController.cs" />
      <Compile Include="Assets\Gamesetting\scripts\PlayerNumController.cs" />

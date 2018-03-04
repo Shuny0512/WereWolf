@@ -20,3 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/DiscussionTime/Discussing.unity
     guid: 394fa3456c5dd4dfbb4bdc405979d319
+  - enabled: 1
+    path: Assets/Executing/Executing.unity
+    guid: b2d5e626c93004ce8a1301e776d5f8a2
