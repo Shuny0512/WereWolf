@@ -13,11 +13,15 @@ public class SwitchController : MonoBehaviour
 	public Button CompleteButton;
 	public int counter = 0;
 	public int counterMax = PlayerNumController.numPlayer;
+	public int turnNum;
+	public Text playerNumbertext;
 
 
 	void Start () 
 	{
 		OpenUI.SetActive (true);
+		turnNum = this.counter + 1;
+		playerNumbertext.text = this.turnNum.ToString ("F0");
 		ResultUI.SetActive (false);
 		OpenButton.onClick.AddListener (Switch);
 		CompleteButton.onClick.AddListener (SwitchBack);
@@ -42,6 +46,8 @@ public class SwitchController : MonoBehaviour
 		if (counter < counterMax) 
 		{
 			OpenUI.SetActive (true);
+			turnNum = this.counter + 1;
+			playerNumbertext.text = this.turnNum.ToString ("F0");
 			ResultUI.SetActive (false);
 			Debug.Log (this.counter);
 			Debug.Log (this.counterMax);

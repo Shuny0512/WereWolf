@@ -1200,6 +1200,7 @@ MonoBehaviour:
   CompleteButton: {fileID: 350493121}
   counter: 0
   counterMax: 6
+  playerNumbertext: {fileID: 1167277885}
 --- !u!4 &1080640427
 Transform:
   m_ObjectHideFlags: 0
@@ -1224,7 +1225,7 @@ GameObject:
   - component: {fileID: 1167277886}
   - component: {fileID: 1167277885}
   m_Layer: 5
-  m_Name: PlayerNumberTxt
+  m_Name: PlayerNumberText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
