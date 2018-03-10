@@ -55,10 +55,12 @@
      <Compile Include="Assets\DiscussionTime\Scripts\LeftsecondController.cs" />
      <Compile Include="Assets\DiscussionTime\Scripts\StartDiscussionButtonController.cs" />
      <Compile Include="Assets\DiscussionTime\Scripts\VillagerNumController.cs" />
+     <Compile Include="Assets\Executing\Scripts\JudgementController.cs" />
      <Compile Include="Assets\Gamesetting\scripts\PlayerNumController.cs" />
      <Compile Include="Assets\Gamesetting\scripts\SceneController.cs" />
      <Compile Include="Assets\NightAction\Scripts\NightActionTitleButtonController.cs" />
      <Compile Include="Assets\NightAction\Scripts\SwitchController.cs" />
+     <Compile Include="Assets\Result\Scripts\TitleButtonController.cs" />
      <Compile Include="Assets\Title\Sctipts\Startbuttoncontroller.cs" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>

@@ -175,6 +175,7 @@
 'Assets/Gamesetting/scripts/SceneController.cs'
 'Assets/NightAction/Scripts/NightActionTitleButtonController.cs'
 'Assets/NightAction/Scripts/SwitchController.cs'
+'Assets/Result/Scripts/TitleButtonController.cs'
 'Assets/Title/Sctipts/Startbuttoncontroller.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
