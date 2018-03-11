@@ -10,8 +10,11 @@ public class JudgementController : MonoBehaviour {
 	public GameObject JudgementUI;
 	public Button JudgementButton;
 
-	void Start () {
-		
+	void Start () 
+	{
+		VotingUI.SetActive (true);
+		JudgementUI.SetActive (false);
+		JudgementButton.onClick.AddListener (CommitJudgement);
 		
 	}
 	
@@ -19,4 +22,18 @@ public class JudgementController : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	void CommitJudgement ()
+	{
+		VotingUI.SetActive (false);
+		JudgementUI.SetActive(true);
+		Invoke ("LoadScene", 1.0f);
+
+	}
+
+	void LoadScene () 
+	{
+		SceneManager.LoadScene ("Result");
+	}
+
 }
